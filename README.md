@@ -137,30 +137,6 @@ Through this project, I learned:
 - Making predictions using a trained neural network
 - Visualizing training history
 
-## Important Note
-
-Before uploading the notebook, make sure the code is clean and all cells run successfully.
-
-Use:
-
-```python
-metrics=[keras.metrics.SparseCategoricalAccuracy()]
-```
-
-if you want the object-oriented Keras metric API.
-
-Do not use the misspelled name:
-
-```text
-sparse_categorical_accuarcy
-```
-
-The correct spelling is:
-
-```text
-sparse_categorical_accuracy
-```
-
 ## Future Improvements
 
 - Improve accuracy using different optimizers such as Adam.
